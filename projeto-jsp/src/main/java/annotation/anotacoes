@@ -1,0 +1,8 @@
+jsp - java serve page é uma linguagem de script e não é um framework
+
+Etapas na construçao de um sistema com jsp.
+-Criar banco de dados ( tabelas e colunas)
+-Criar arquivos.jsp(Estrutura html)
+-Criar pacotes para armazenar as clases que são contruidas no backend (Servlet, Filter, Dao, model) 
+<input type="hidden" value="<%=request.getParameter("url")%>"
+			name="url">
